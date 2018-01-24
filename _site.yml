@@ -1,0 +1,22 @@
+name: 'Some WALS features'
+navbar:
+  left:
+  - text: 'Home'
+    icon: fa-home
+    href: index.html
+  - text: features
+    menu:
+    - text: 1. 1a
+      href: 1._1a.html
+    - text: 2. 20a
+      href: 2._20a.html
+output_dir: docs
+output:
+  html_document:
+    lib_dir: site_libs
+    self_contained: no
+    theme: spacelab
+    highlight: pygments
+    df_print: paged
+    include:
+      after_body: footer.html
